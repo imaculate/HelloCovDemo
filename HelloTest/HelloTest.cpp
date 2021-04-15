@@ -23,10 +23,5 @@ namespace HelloCovTest
 		{
 			Assert::AreEqual(-4, divide_by_two(-7));
 		}
-
-		TEST_METHOD(IsNegativePowerOfTwo)
-		{
-			Assert::IsFalse(is_power_of_two(-8));
-		}
 	};
 }
